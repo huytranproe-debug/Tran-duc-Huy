@@ -78,6 +78,35 @@ Hưng Phát đề xuất làm **line đóng gói cuối line liên hoàn 5 modul
 
 ---
 
+## 0B. Báo giá NCC Cao Việt Mỹ (CVM) – gửi Mr Tứ, 05–06/2026
+
+**Dữ liệu nền cho business case (đầu bài Mr Tứ gửi CVM ngày 10/06):**
+- Sản phẩm: Tempura LDF 13 g, 12 con/hộp × 24 hộp/thùng, thùng **L270 × W170 × H124 mm**.
+- Tốc độ đóng hộp **25 hộp/phút**; 2 line ra chung 1 bàn.
+- Hiện cần **3 công nhân** để vô thùng và chất pallet.
+
+| Thiết bị CVM | Dự án | Giá (tr VNĐ, chưa VAT) | Thông số chính | Nhận xét |
+|---|---|---|---|---|
+| Máy dựng thùng | DA1 | 350 | 15–20 thùng/phút | Thùng 270×170×124 nằm trong dải ✔; công suất dư nhiều → hợp với phương án central line |
+| Robot gắp hộp vào thùng (2 trục + vision) | Casepacker | 1.219 | 20–30 lần/phút, tải 6–8 kg | **Chiếm ~59% chi phí** → so với gantry X/Y của Hưng Phát |
+| Máy dán thùng | DA1 | 80 | 15–20 thùng/phút, cao ≥120 mm | Thùng cao 124, sát mức tối thiểu ⚠; chưa xử lý keo bung |
+| Cobot xếp pallet SBK-CP1030D (TQ) + mâm hút | DA3 | 350 + 50 | 30 kg, ≤9 thùng/phút, trần ≥3,5 m | Thùng ~4–5 kg ✔; cần kiểm tra trần và nhiệt độ phòng |
+| Cartoning (dựng + đẩy vào hộp) | DA2 | 690 | 30–60 hộp/phút, hộp ≤240×145×100 | Đạt 25 hộp/phút ✔; cần đối chiếu kích thước và định lượng giấy hộp |
+| Băng tải nối | – | chưa báo | – | Phải cộng thêm vào tổng đầu tư |
+
+**Ước tính sơ bộ hoàn vốn (line đóng thùng + pallet Tempura theo báo giá CVM, chưa tính băng tải, VAT và chi phí vận hành):**
+- Tổng đầu tư: 350 + 1.219 + 80 + 400 = **2.049 tr**. Thay **3 công nhân/ca**.
+- Giả định 1 công nhân ≈ 120 tr/năm (cần thay bằng số liệu HR).
+- **Thời gian hoàn vốn:**
+  - 1 ca: ~5,7 năm.
+  - 2 ca: ~2,8 năm.
+  - 3 ca: ~1,9 năm.
+- Kết luận: chỉ đáng đầu tư khi chạy **≥2 ca**, hoặc khi **1 line dùng chung cho nhiều line sản phẩm**, hoặc khi thay được robot gắp 1.219 tr bằng **gantry X/Y rẻ hơn**.
+
+*Ngoài phạm vi packaging:* chuyền bánh bao (1.370 tr), in phun BestCode (90 tr), phân cỡ tôm HLSO (CVM đang chờ 7 thông tin từ Mr Tứ).
+
+---
+
 ## 1. Bảng ưu tiên
 
 Điểm ưu tiên = Tác động (1–5) ÷ Công sức (1–5). Công sức hiện đang **giả định** theo mức đầu tư thường gặp.
