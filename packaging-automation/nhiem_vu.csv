@@ -1,0 +1,24 @@
+﻿Dự án,Nhiệm vụ,Loại việc,Phụ thuộc,Người làm,Hạn,Trạng thái
+DA1,⏱ Gọi/nhắn NCC dựng thùng xin bản layout + 2 phương án (central line / 1 máy chia line),Mua vật tư/báo giá,–,Huy,02/11/2026,Chưa bắt đầu
+DA1,"Lấy số liệu hiện trạng DFC: CN dựng thùng & dán đáy/ca, số ca, sản lượng thùng/ngày, các size thùng",Thiết kế,–,Huy + Xưởng DFC,03/11/2026,Chưa bắt đầu
+DA1,Chọn phương án (central line hay chia line) theo mặt bằng & lưu thông,Thiết kế,Layout NCC,Huy,04/11/2026,Chưa bắt đầu
+DA1,Tích hợp module dán băng keo **mặt đáy** vào máy dựng thùng; xác định quy trình CN dán hoàn thiện mặt trên (chồng mép keo),Thiết kế,PA dựng thùng,Huy + NCC,05/11/2026,Chưa bắt đầu
+DA1,"Lập business case (đầu tư, CN giảm, hoàn vốn) & gửi anh David",Trình duyệt,3 việc trên,Huy,06/11/2026,Chưa bắt đầu
+DA1,"Nhận báo giá chính thức NCC, cập nhật ROI",Mua vật tư/báo giá,PA chốt,NCC → Huy,14/11/2026,Chưa bắt đầu
+DA1,"Test băng keo/keo nóng trên thùng tráng chống thấm, lưu kho lạnh 48–72h, kiểm tra bung keo",Chạy thử,Mẫu băng keo NCC,Huy + Anh Thảo + QA,13/11/2026,Chưa bắt đầu
+DA1,"Chốt giải pháp dán keo, gửi cập nhật anh David",Trình duyệt,Test lưu kho lạnh,Huy,18/11/2026,Chưa bắt đầu
+DA2,⏱ Nhắn NCC hỏi ngày giao bản 3D hoàn chỉnh,Thiết kế,–,Huy,02/11/2026,Chưa bắt đầu
+DA2,"Xác nhận SKU, quy cách khay/hộp, năng suất line mục tiêu (hộp/phút)",Thiết kế,–,Huy + Xưởng TFC/DFC,04/11/2026,Chưa bắt đầu
+DA2,"Review 3D với xưởng (vận hành, vệ sinh, an toàn thực phẩm, đổi size)",Thiết kế,3D NCC,Huy + Xưởng,07/11/2026,Chưa bắt đầu
+DA2,Lập business case & gửi anh David,Trình duyệt,Review 3D,Huy,10/11/2026,Chưa bắt đầu
+DA2,"Nhận báo giá chính thức, cập nhật ROI",Mua vật tư/báo giá,PA chốt,NCC → Huy,17/11/2026,Chưa bắt đầu
+DA3,⏱ Lập danh sách 3 NCC robot/máy xếp pallet và gửi email mời khảo sát,Mua vật tư/báo giá,–,Huy,03/11/2026,Chưa bắt đầu
+DA3,"Đo hiện trạng: điểm cuối line, kích thước thùng, kiểu xếp pallet theo khách hàng, chiều cao pallet, CN xếp/ca",Thiết kế,–,Huy + Xưởng,06/11/2026,Chưa bắt đầu
+DA3,NCC khảo sát thực tế TFC & DFC,Mua vật tư/báo giá,Danh sách NCC,NCC,13/11/2026,Chưa bắt đầu
+DA3,"Nhận đề xuất + giá sơ bộ, so sánh NCC",Mua vật tư/báo giá,Khảo sát,Huy,24/11/2026,Chưa bắt đầu
+DA3,Lập business case & gửi anh David,Trình duyệt,So sánh NCC,Huy,30/11/2026,Chưa bắt đầu
+DA4,⏱ Nhắn anh Thảo xin danh sách SKU/quy cách hộp BULK PACK,Thiết kế,–,Huy,03/11/2026,Chưa bắt đầu
+DA4,"Khảo sát khâu vô hộp BULK PACK tại TFC & DFC (CN, năng suất, định lượng, cân)",Thiết kế,Danh sách SKU,Huy + Xưởng,20/11/2026,Chưa bắt đầu
+DA4,"Làm việc với NCC (gửi clip tham khảo, yêu cầu PA)",Mua vật tư/báo giá,Khảo sát,Huy + NCC,27/11/2026,Chưa bắt đầu
+DA4,Tổng hợp phương án + business case gửi anh David,Trình duyệt,PA NCC,Huy,10/12/2026,Chưa bắt đầu
+Chung,Họp duyệt với anh Long: gom PA DA1 + DA2 (bảng dự toán + lợi ích),Trình duyệt,"DA1, DA2 gửi xong",Huy + anh Long,19/11/2026,Chưa bắt đầu
