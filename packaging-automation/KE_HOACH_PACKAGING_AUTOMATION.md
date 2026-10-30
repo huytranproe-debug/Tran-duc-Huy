@@ -37,6 +37,47 @@ Công thức: *Hạn chốt = Bắt đầu (30/10) + (Hạn cam kết − Bắt 
 
 ---
 
+## 0A. Cập nhật 30/10 – Trao đổi với NCC Hưng Phát (anh Phường)
+
+Hưng Phát đề xuất làm **line đóng gói cuối line liên hoàn 5 module**, thay vì từng máy rời:
+
+```
+[1] Máy vô hộp ──┐
+                 ├─► [3] Casepacker (hộp vô thùng – gantry X/Y) ─► [4] Case top sealer ─► [5] Palletizer
+[2] Case erector ┘        (dựng thùng + dán đáy)                       (dán nắp thùng)      (cobot TQ / robot công nghiệp)
+```
+
+| Module | Công nghệ Hưng Phát đề xuất | Gắn với dự án | Ghi chú kỹ thuật |
+|---|---|---|---|
+| 1. Máy vô hộp | – | DA2 | Tốc độ của module này quyết định tốc độ của cả line |
+| 2. Case erector / case former | Bung thùng + dán đáy | DA1 | Phải xử lý được nhiều size thùng |
+| 3. Casepacker | **Gantry X/Y** | **Hạng mục mới** | Hệ X/Y dùng cho **hộp vô thùng**, không dùng cho palletizer (anh Phường đã chỉnh lại) |
+| 4. Case top sealer | Dán băng keo nắp | DA1 (dán keo) | ⚠️ Thùng tráng chống thấm bị bung keo trong kho lạnh → cần test keo trước khi chốt |
+| 5. Palletizer | **Cobot TQ** (giá rẻ) hoặc **robot công nghiệp** (đắt, báo giá USD) | DA3 | Chọn theo trọng lượng thùng, quy cách xếp và tốc độ |
+
+**Thay đổi trong kế hoạch:**
+- Thêm **hạng mục 3 – Casepacker (gantry X/Y)**. Hạng mục này nằm giữa máy vô hộp và máy dựng thùng, chưa có trong email gửi anh David.
+- Đề nghị Hưng Phát báo giá **2 cách**:
+  - **(A) Báo giá từng module:** đầu tư dần theo giai đoạn.
+  - **(B) Báo giá trọn line tích hợp:** 1 NCC chịu trách nhiệm cả line.
+- Palletizer báo giá **2 phương án**:
+  - **Cobot TQ:** rẻ, cần kiểm tra tải trọng của cobot đã tính cả tay gắp.
+  - **Robot công nghiệp:** nhanh và bền hơn, nhưng đắt hơn.
+- Nếu chọn **case top sealer tự động (4)**, giải pháp "công nhân dán hoàn thiện mặt trên" sẽ không còn dùng nữa. Vì vậy **test keo/băng keo trên thùng tráng chống thấm trong kho lạnh** trở thành điều kiện bắt buộc trước khi chốt line liên hoàn.
+
+**Dữ liệu Hưng Phát cần (gửi trước 04/11):**
+
+| # | Thông số | Ai cung cấp |
+|---|---|---|
+| 1 | Danh sách SKU đi qua line (TFC & DFC) | Huy + Xưởng |
+| 2 | Kích thước, trọng lượng hộp; số hộp/thùng; kiểu xếp hộp trong thùng | Xưởng + Anh Thảo |
+| 3 | Kích thước thùng (tất cả size), **trọng lượng thùng đầy (kg)**, loại giấy (có tráng chống thấm) | Anh Thảo – Bao bì |
+| 4 | **Quy cách xếp pallet:** loại pallet, số thùng/lớp, số lớp, chiều cao tối đa, kiểu xếp theo thị trường | Kho / Sales |
+| 5 | **Tốc độ yêu cầu:** hộp/phút, thùng/phút ở giờ cao điểm; số ca/ngày | Xưởng |
+| 6 | Mặt bằng cuối line: kích thước, vị trí cột, lối xe nâng, nhiệt độ phòng đóng gói | Huy |
+
+---
+
 ## 1. Bảng ưu tiên
 
 Điểm ưu tiên = Tác động (1–5) ÷ Công sức (1–5). Công sức hiện đang **giả định** theo mức đầu tư thường gặp.
@@ -83,7 +124,7 @@ Công thức: *Hạn chốt = Bắt đầu (30/10) + (Hạn cam kết − Bắt 
 | DA1 | Tích hợp module dán băng keo **mặt đáy** vào máy dựng thùng; xác định quy trình CN dán hoàn thiện mặt trên (chồng mép keo) | Thiết kế | PA dựng thùng | Huy + NCC | 05/11 |
 | DA1 | Lập business case (đầu tư, CN giảm, hoàn vốn) & gửi anh David | Trình duyệt | 3 việc trên | Huy | **06/11** |
 | DA1 | Nhận báo giá chính thức NCC, cập nhật ROI | Mua vật tư/báo giá | PA chốt | NCC → Huy | 14/11 |
-| DA1 | Test băng keo/keo nóng trên thùng tráng chống thấm, lưu kho lạnh 48–72h, kiểm tra bung keo | Chạy thử | Mẫu băng keo NCC | Huy + Anh Thảo + QA | 13/11 |
+| DA1 | Test băng keo/keo nóng (đáy + nắp – cho case top sealer) trên thùng tráng chống thấm, lưu kho lạnh 48–72h, kiểm tra bung keo | Chạy thử | Mẫu băng keo NCC | Huy + Anh Thảo + QA | 13/11 |
 | DA1 | Chốt giải pháp dán keo, gửi cập nhật anh David | Trình duyệt | Test lưu kho lạnh | Huy | 18/11 |
 | DA2 | ⏱ Nhắn NCC hỏi ngày giao bản 3D hoàn chỉnh | Thiết kế | – | Huy | 02/11 |
 | DA2 | Xác nhận SKU, quy cách khay/hộp, năng suất line mục tiêu (hộp/phút) | Thiết kế | – | Huy + Xưởng TFC/DFC | 04/11 |
@@ -99,6 +140,10 @@ Công thức: *Hạn chốt = Bắt đầu (30/10) + (Hạn cam kết − Bắt 
 | DA4 | Khảo sát khâu vô hộp BULK PACK tại TFC & DFC (CN, năng suất, định lượng, cân) | Thiết kế | Danh sách SKU | Huy + Xưởng | 20/11 |
 | DA4 | Làm việc với NCC (gửi clip tham khảo, yêu cầu PA) | Mua vật tư/báo giá | Khảo sát | Huy + NCC | 27/11 |
 | DA4 | Tổng hợp phương án + business case gửi anh David | Trình duyệt | PA NCC | Huy | **10/12** |
+| DA3 | ⏱ Gửi Hưng Phát (anh Phường) bộ dữ liệu: SKU, kích thước/trọng lượng thùng, quy cách xếp pallet, tốc độ, mặt bằng | Mua vật tư/báo giá | Số liệu xưởng + Bao bì | Huy | 04/11 |
+| DA2 | Casepacker gantry X/Y: Hưng Phát đưa vào layout tích hợp vô hộp → vô thùng | Thiết kế | Bộ dữ liệu | Hưng Phát + Huy | 13/11 |
+| DA3 | Hưng Phát báo giá palletizer 2 phương án: cobot TQ / robot công nghiệp | Mua vật tư/báo giá | Bộ dữ liệu | Hưng Phát | 13/11 |
+| Chung | Hưng Phát báo giá 2 cách: (A) từng module, (B) trọn line tích hợp 5 module | Mua vật tư/báo giá | Layout tích hợp | Hưng Phát | 17/11 |
 | Chung | Họp duyệt với anh Long: gom PA DA1 + DA2 (bảng dự toán + lợi ích) | Trình duyệt | DA1, DA2 gửi xong | Huy + anh Long | 19/11 |
 
 ---
@@ -128,6 +173,8 @@ Công thức: *Hạn chốt = Bắt đầu (30/10) + (Hạn cam kết − Bắt 
 | Băng keo không bám thùng tráng chống thấm trong kho lạnh | Máy dán keo không dùng được | Test keo nóng (hot-melt) / băng keo chịu lạnh; đề nghị anh Thảo xem xét chừa vùng không tráng ở nắp thùng |
 | Nhiều size thùng → máy dựng thùng đổi size chậm | Giảm năng suất, ROI kém | Gom size thùng theo nhóm; chọn máy đổi size nhanh; xem xét chuẩn hóa size với Bao bì |
 | Máy xếp pallet: kiểu xếp khác nhau theo khách hàng/thị trường | Phức tạp chương trình robot | Lấy danh sách quy cách pallet theo thị trường (Úc, EU, UK, Mỹ…) từ Sales/Kho |
+| Cobot TQ không đủ tải (thùng đầy + tay gắp) hoặc không đủ tốc độ cao điểm | Palletizer nghẽn cuối line | Gửi Hưng Phát trọng lượng thùng nặng nhất + tốc độ cao điểm; yêu cầu tính tải có dự phòng |
+| Line liên hoàn 5 module: 1 module dừng thì cả line dừng | Mất sản lượng | Yêu cầu băng tải đệm (buffer) giữa các module; ưu tiên NCC có dịch vụ bảo trì tại chỗ |
 | DA4 chưa có dữ liệu, mốc 10/12 dồn cùng DA3 | Quá tải cuối tháng 11 | Khởi động khảo sát từ 16/11, không để sau 30/11 |
 
 | Việc cần người khác | Ai | Hạn |
